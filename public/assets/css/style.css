@@ -1,0 +1,81 @@
+input.checkbox-big {
+    transform: scale(1.4);
+}
+.hide-block {
+    display: none;
+}
+.img-sm-edit {
+    height: 90px;
+}
+.field_block {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+span.delete_block {
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+    margin-right: 5px;
+    float: right;
+}
+.option_common {
+    position: relative;
+}
+span.delete_option {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.customCardBody{
+    min-height: 100px !important;
+}
+.customHeight{
+    min-height:77.7vh;
+}
+.custom-panel{
+    min-height:78vh;
+}
+.navbar-vertical .navbar-brand-img, .navbar-vertical .navbar-brand > img {
+    max-height: 4rem !important;
+}
+li.select2-selection__choice {
+    background: #DAA824 !important;
+    color: #fff !important;
+    border-color: #DAA824 !important;
+}
+.select2-selection__choice__remove {
+    border-right: 0px !important;
+    color: #fff !important;
+    padding: 0px !important;
+}
+
+.error-help-block {
+    color: #e33f3f;
+}
+
+.loader-block {
+    position: fixed;
+    top: 5%;
+    left: 39%;
+}
+
+.hide {
+    display: none;
+}
+
+.select2-container .select2-selection--single {
+    height: 46px !important;
+    border: 1px solid #dee2e6 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover, .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus {
+    background-color: transparent !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff !important;
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+    display: none !important;
+}
